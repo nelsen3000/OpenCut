@@ -20,7 +20,7 @@
   --secondary: hsl(216, 13%, 92%);
   --secondary-foreground: hsl(0 0% 2%);
   --muted: hsl(0 0% 85.1%);
-  --muted-foreground: hsl(0 0% 50%);
+  --muted-foreground: hsl(0 0% 35%); /* 2026-10-02 a11y fix: was hsl(0 0% 50%) = #808080, measured 3.95:1 on white (FAILS AA); #595959 measures 7.0:1 (AA) */
   --accent: hsl(216, 13%, 92%);
   --accent-foreground: hsl(0 0% 2%);
   --destructive: hsl(0, 83%, 50%);
